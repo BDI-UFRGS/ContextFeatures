@@ -5,7 +5,7 @@ Method based on multi scale context features for image classification. This meth
 # Code files
 -context_features.py
 	
-This is the code of our approach. You can use it to generate all context features and concatenate them to create the multiscale context features. We also apply the train and test of the classifier in this code.
+This is the code of our approach. You can use it to generate all context features and concatenate them to create the multiscale context features. We also apply the train and test of the classifier in this code. Use -h tag to see the help of the code.
 
 -simple_features.py
 	
