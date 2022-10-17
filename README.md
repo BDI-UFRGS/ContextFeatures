@@ -15,7 +15,11 @@ In this code, we use the approach based on simple features. We also apply the tr
 	
 This code uses the raw_image and train/test the model without transfer learning.
   
- All the codes have a dictionary of the models, enable to use the same that we apply in the paper experiments.
+All the codes have a dictionary of the models, enable to use the same that we apply in the paper experiments.
+
+These codes specifically use the Stanford Dataset that can be downloaded in: https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset or http://ai.stanford.edu/~jkrause/cars/car_dataset.html. We use three different .mat files to get the labels and the classes names: 'cars_test_annos_withlabels_eval.mat', 'cars_train_annos.mat' and 'cars_annos.mat'. Make sure you have the three files and the images in a 'stanford/' folder.
+
+To use CLIP you need to download and install it from: https://github.com/openai/CLIP.
 
 # Reference
 
